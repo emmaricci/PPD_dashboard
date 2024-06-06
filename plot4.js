@@ -115,6 +115,7 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter().x(width / 2).y(height / 2 + 25)) // Attraction to the center of the svg area, move down a little
     .force("charge", d3.forceManyBody().strength(.1)) // Nodes are attracted one each other of value is > 0
     .force("collide", d3.forceCollide().strength(.2).radius(function(d){ return (size(d.Cost)+3) }).iterations(1)) // Force that avoids circle overlapping
+    .alphaDecay(0.01); // make the simulation slower
 
     // Append text labels
     var labels = svg.append("g")
