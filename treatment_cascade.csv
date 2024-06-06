@@ -1,0 +1,14 @@
+﻿node,name,labels,stage,time
+0,node0,All,Prevalence,All
+1,node1,AND_Diagnosis,Diagnosis,AND
+2,node2,AND_Treatment,Treatment,AND
+3,node3,AND_Trial,Adequate trial of treatment,AND
+4,node4,AND_Remission,Remission,AND
+5,node5,PPD_Diagnosis,Diagnosis,PPD
+6,node6,PPD_Treatment,Treatment,PPD
+7,node7,PPD_Trial,Adequate trial of treatment,PPD
+8,node8,PPD_Remission,Remission,PPD
+9,node9,Unrecognized,Diagnosis,Both
+10,node10,Unreateated,Treatment,Both
+11,node11,Inadequate,Adequate trial of treatment,Both
+12,node12,Unremitted,Remission,Both
