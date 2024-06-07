@@ -94,7 +94,7 @@ var node = svg.append("g")
         tooltip
             .html(d.Outcome + "<br> Cost: $" + d.Cost + " (million)")
             .style("left", (xPos + 25) + "px") // Adjust as needed
-            .style("top", (yPos + 490) + "px") // Adjust as needed
+            .style("top", (yPos + 900) + "px") // Adjust as needed
             .style("font-family", "Arial");
     })
 
