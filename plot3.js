@@ -101,7 +101,7 @@ arcs.append("path")
             tooltip
             .html(d.Person + " Outcomes"  + "<br> Cost: $" + d.dollar)
             .style("left", (xPos + 550) + "px")  // Adjust as needed
-            .style("top", (yPos + 490) + "px")
+            .style("top", (yPos + 900) + "px")
             .style("font-family", "Arial");
     
         })
