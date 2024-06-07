@@ -1,0 +1,107 @@
+{
+"nodes":[
+  {"node":0,"name":"node0","labels": "","stage":"","time":"Both"},
+  {"node": 1,"name": "node1","labels": "of AND women are Diagnosed","stage": "","time": "AND"},
+  {"node": 2,"name": "node2","labels": "of AND women Initiate Treatment","stage": "","time": "AND"},
+  {"node": 3,"name": "node3","labels": "of AND women Receive Adequate Trial of Treatment","stage": "","time": "AND"},
+  {"node": 4,"name": "node4","labels": "of AND women are Remitted","stage": "","time": "AND"},
+  {"node": 5,"name": "node5","labels": "of PPD women are Diagnosed","stage": "","time": "PPD"},
+  {"node": 6,"name": "node6","labels": "of PPD women Initiate Treatment","stage": "","time": "PPD"},
+  {"node": 7,"name": "node7","labels": "of PPD women Receive Adequate Trial of Treatment","stage": "","time": "PPD"},
+  {"node": 8,"name": "node8","labels": "of PPD women are Remitted","stage": "","time": "PPD"},
+  { "node": 9, "name": "node9", "labels": "of women are Unrecognized", "stage": "Undiagnosed", "time": "Both"},
+  {"node": 10,"name": "node10","labels": "of women are Unreateated","stage": "Untreated","time": "Both"},
+  {"node": 11,"name": "node11","labels": "of women Receive Inadequate Treatment","stage": "Inadequate Treatment","time": "Both"},
+  {"node": 12,"name": "node12","labels": "of women are Unremitted","stage": "Unremitted","time": "Both"} ],
+"links":[
+  {
+    "source": 0,
+    "target": 1,
+    "value": 24.95
+  },
+  {
+    "source": 0,
+    "target": 5,
+    "value": 15.4
+  },
+  {
+    "source": 0,
+    "target": 9,
+    "value": 59.65
+  },
+  {
+    "source": 1,
+    "target": 2,
+    "value": 6.82
+  },
+  {
+    "source": 1,
+    "target": 10,
+    "value": 18.05
+  },
+  {
+    "source": 5,
+    "target": 6,
+    "value": 7.92
+  },
+  {
+    "source": 5,
+    "target": 10,
+    "value": 7.52
+  },
+  {
+    "source": 2,
+    "target": 3,
+    "value": 4.29
+  },
+  {
+    "source": 2,
+    "target": 11,
+    "value": 2.49
+  },
+  {
+    "source": 6,
+    "target": 7,
+    "value": 3.14
+  },
+  {
+    "source": 6,
+    "target": 11,
+    "value": 4.99
+  },
+  {
+    "source": 3,
+    "target": 4,
+    "value": 2.40
+  },
+  {
+    "source": 3,
+    "target": 12,
+    "value": 2.0
+  },
+  {
+    "source": 7,
+    "target": 8,
+    "value": 1.60
+  },
+  {
+    "source": 7,
+    "target": 12,
+    "value": 1.50
+  },
+  {
+    "source": 9,
+    "target": 10,
+    "value": 59.68
+  },
+  {
+    "source": 10,
+    "target": 11,
+    "value": 85.09
+  },
+  {
+    "source": 11,
+    "target": 12,
+    "value": 92.50
+  }
+]}
