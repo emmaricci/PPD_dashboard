@@ -89,3 +89,28 @@ stroke-opacity: .5;
     color: yellow;
     text-decoration: none; /* Removes underline from links */
 }
+
+.legend {
+    font-family: Arial;
+  }
+
+  .legend rect {
+    fill: none;
+    stroke: #ffffff;
+  }
+
+  .legend text {
+    fill: #ffffff;
+    font-size: 12px;
+  }
+  
+    .link {
+    fill: none;
+    stroke: #bcbcbc;
+    stroke-opacity: 1;
+    }
+
+    .link:hover {
+      stroke: #ffffff;
+    /* stroke-opacity: .5; */
+    }
